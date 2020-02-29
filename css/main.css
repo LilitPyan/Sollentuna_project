@@ -1,0 +1,608 @@
+body {
+  padding-top: 56px;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+
+/*-----------------------
+          nav
+------------------------*/
+.navbar{
+  background-color: white!important;
+  margin-top: -56px;
+}
+
+.navbar-brand img{
+  height: 50px;
+  width: 110px;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  color:#000076;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: #000076;
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.dropdown-toggle{
+  color: #000076;
+}
+
+.dropdown-item{
+  color: #000076;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+  color: initial!important;
+}
+
+.nav-item:hover{
+  background-color: #c5ecff;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  left: 0!important;
+}
+
+.dropdown-item:hover{
+  background-color: #c5ecff!important;
+}
+
+/*----------------------
+          header
+----------------------*/
+#myNav span{
+  color: red;
+}
+.carousel-caption{
+  top: 152px!important;
+
+}
+
+.main-h{
+  color: red!important;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+
+.main-p{
+  font-size: 29px;
+  line-height: 39px;
+}
+
+.main-btn{
+  width: 218px;
+  font-size: 23px;
+  border-radius: 16px;
+  margin-top: 47px;
+  height: 42px;
+  cursor: pointer;
+  color: white;
+  outline: none;
+  text-decoration: none;
+}
+
+.parallax-overlay {
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+.for-icon i {
+  color: #000076;;
+  font-weight: 500;
+}
+/*---------------------------
+            OFFERT
+---------------------------*/
+.offert {
+  width: 610px;
+  background-color: whitesmoke;
+  position: relative;
+  font-family: serif;
+  margin: 32px auto 0;
+  padding-left: 15px;
+}
+
+.offert h4 {
+  color:#2b333d;
+  font-weight: bold;
+  font-size: 19px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.closeButton{
+  color: #2b333d;
+  cursor: pointer;
+  position: relative;
+  left: 271px;
+  font-size: 29px;
+  margin: 0px;
+}
+
+.offert input[type=text] {
+  width: 100%;
+  font-size: 15px;
+  outline: none;
+}
+.lab label {
+  margin-left: 127px;
+}
+.offert textarea {
+  width: 493px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  color: #737373;
+  outline: none;
+}
+.offert input {
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  background-color: white;
+  outline: none;
+  color: #737373;
+}
+.offert select {
+  width: 236px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  color: #737373;
+  outline: none;
+  font-size: 15px;
+  background-color: white;
+  outline: none;
+}
+.offert label {
+  display: inline-block;
+  float: left;
+  font-size: 17px;
+}
+.offert input[type=submit] {
+  background-color:#000076;;
+  color: white;
+  padding: 0 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-left: 240px;
+  font-size: 15px;
+  outline: none;
+}
+.offert input[type=submit]:hover {
+  color:#000076;
+  outline: none;
+}
+.offert .col-50 {
+  float: left;
+  width: 260px;
+  margin-top: 18px;
+  padding-right: 23px;
+}
+.offert .col-75 {
+  float: left;
+  width: 495px;
+  margin-right: 22px;
+}
+.cv {
+  display: flex;
+  justify-content: center;
+  color: #5f5f5f;
+}
+.textArea {
+  font-size: 17px;
+  color: #5f5f5f;
+  margin-top: 10px;
+}
+
+#offert .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  font-family: serif;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+#homeIntro {
+  background-image: url("../images/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.home-intro-content {
+  padding: 14em 0;
+  text-align: center;
+}
+
+.home-intro-content h1 {
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-family: sans-serif;
+  color:#000076;
+}
+
+.home-intro-content p {
+  font-size: 27px;
+  line-height: 30px;
+  margin-bottom: 35px;
+}
+
+.home-intro-content button {
+  height: 38px;
+  width: 190px;
+  border-radius: 10px;
+  font-size: 17px;
+  outline: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.parallax {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden;
+}
+
+.parallax-overlay {
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+
+
+/*------------------------------------------
+      Välkommen, vara, kvalitet
+-------------------------------------------*/
+.box-for-vara .card-body {
+  margin-top: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.card-body {
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 0;
+    padding-top: 30px;
+}
+.box-for-valkommen .title{
+  font-weight: bold;
+  color: #000076;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.box-for-kvalitet .title{
+  font-weight: bold;
+  color: #000076;;
+  font-family: sans-serif;
+  text-align: center;
+}
+.box-for-vara .title{
+  font-weight: bold;
+  color: #000076;;
+  font-family: sans-serif;
+  text-align: center;
+}
+.vara{
+  color: #5f5f5f;
+  font-weight: 800;
+}
+
+.for-varaBlock{
+  margin-bottom: 6px;
+  margin-top: 15px;
+  background-color: white;
+  display:flex;
+  justify-content: center;
+}
+
+p{
+  font-family: sans-serif;
+  line-height: 30px;
+  text-align: center;
+}
+
+.box-for-valkommen{
+  background-color: #f1f1f1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card-body{
+  padding: 0;
+  margin-top: 0;
+}
+.card-title {
+    margin-top: .75rem;
+}
+.box-for-vara{
+background-color: lightgrey;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 478px;
+}
+
+.box-for-kvalitet{
+  background-color: #f1f1f1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.card{
+  border:none;
+}
+
+.card a{
+  text-decoration: none;
+}
+
+.for-kvalitetBG{
+  background-color: #f1f1f1;
+}
+.card-body{
+  border-radius: 5px;
+}
+
+.pt-4{
+  margin: 0;
+}
+
+.justify-content-center {
+  -ms-flex-pack: center!important;
+  justify-content: center!important;
+  margin: 0;
+}
+
+.for-icon{
+  display: flex;
+  flex-direction: row;
+  color: #2b333d;
+  justify-content: center;
+}
+/*--------------------------
+          vara
+--------------------------------*/
+.title{
+  color: #000076;
+}
+.for-firstBlock p {
+  text-align: left !important;
+}
+
+.for-firstBlock h1 {
+  text-align: left !important;
+}
+
+.for-block {
+  justify-content: center;
+}
+.main{
+  background-color: #f1f1f1;
+}
+.for-img{
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+.rotav-img{
+  border-radius: 5px;
+  height: 245px;
+  margin-top: 20px;
+}
+.for-rotavdrag{
+  height: 495px;
+}
+
+.rotav_box {
+  display: flex!important;
+  justify-content: center!important;
+  align-items: center!important;
+}
+.for-omOssOne{
+  height: 60px;
+  margin-top: 20px;
+}
+.for-omOssTwo{
+  height: 125px;
+  margin-left: 20px;
+  margin-top: -28px;
+}
+
+/*---------------------------------------------
+                      FOOTER
+----------------------------------------------*/
+.globeCont {
+  display: flex;
+  flex-direction: column;
+  margin: 1% auto 0;
+}
+
+.overlay a {
+  padding: 5px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f1f1f1;
+  display: block;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.overlay a:hover {
+  color: #4CAF50;
+  background-color: inherit;
+}
+
+#footer {
+  background-color: lightgray;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+  padding-top: 17px;
+  height: 85px;
+}
+
+#footer .footerSection {
+  text-align: center;
+}
+
+#footer .footerSection .icons a i {
+  border-radius: 100%;
+  box-shadow: 0 0 0 -2px rgba(0, 0, 0, 0.1), 0 0 0 3px #fff, 0 0 0 6px rgba(0, 0, 0, 0.1);
+  font-size: 26px;
+  line-height: 3em;
+  width: 3em;
+  color: #000076;;
+  background-color: inherit;
+}
+
+#footer ul.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+
+#footer ul.icons li {
+  display: inline-block;
+  border-radius: 100%;
+  box-shadow: 0 0 0 -2px rgba(0, 0, 0, 0.1);
+  width: 4em;
+  margin-left: 10px;
+}
+
+#footer ul.icons li:last-child {
+  padding-right: 0;
+}
+
+#footer ul.icons li .icon:before {
+  font-size: 2em;
+}
+.icons li:hover{
+  background-color: lightblue;
+}
+
+
+/*----------------------------
+         KONTAKT
+------------------------------*/
+.footer .row{
+  align-items: end;
+}
+.fa-asterisk {
+  color: red;
+  font-size: 10px;
+  position: absolute;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+form button {
+  margin: 8px auto 20px;
+  display: block;
+  width: 91px;
+  font-size: 17px;
+  outline: none;
+  background-color: #05045b;
+  color: white;
+  border-radius: 5px;
+}
+
+.section {
+  background-color: #b1b1b1;
+  width: 246px;
+  margin-top: 25px;
+  margin-left: 65px;
+  height: 342px;
+  border-radius: 5px;
+}
+
+.section hr {
+  border: 0;
+  border-top: 1px solid #8d8fde;
+  width: 228px;
+}
+
+.section h4 {
+  color: #2b333d;
+  font-weight: bold;
+  font-size: 19px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.section p {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.section ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.section ul i {
+  font-size: 33px;
+  margin-right: 50px;
+  color: #2b333d;
+  margin-top: 20px;
+}
